@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <include layout="@layout/common__title_layout" />
+    <TextView 
+        android:id="@+id/bill_type_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="目前仅支持以下几种邮箱"
+        />
+    <Button
+        android:id="@+id/bill_qq_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ邮件发送"/>
+    <Button
+        android:id="@+id/bill_163_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="163邮件发送"/>
+    <Button
+        android:id="@+id/bill_126_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="126邮件发送"/>
+    <Button
+        android:id="@+id/bill_sohu_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sohu邮件发送"/>
+        
+
+</LinearLayout>

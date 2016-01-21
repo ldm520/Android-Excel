@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0f0f0"
+        android:orientation="vertical" >
+
+        <include layout="@layout/common__title_layout" />
+
+        <include
+            android:id="@+id/add_expend_layout"
+            layout="@layout/activity_add_expends" />
+
+        <include
+            android:id="@+id/add_income_layout"
+            layout="@layout/activity_add_income"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/family_bill_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="其它支出"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/bill_other_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/family_bill_other"
+                android:background="@null"
+                android:hint="请填写金额"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textColor="#9f9f9f"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#dfdfe1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="#FFFFFF" >
+
+            <TextView
+                android:id="@+id/family_bill_remark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:text="备注说明"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/bill_remark_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_toRightOf="@id/family_bill_remark"
+                android:background="@null"
+                android:hint="请填写金额"
+                android:textColor="#9f9f9f"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#dfdfe1" />
+    </LinearLayout>
+
+</ScrollView>

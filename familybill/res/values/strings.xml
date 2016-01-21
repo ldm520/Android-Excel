@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">个人记帐</string>
+    <string name="hello_world">帐单主页</string>
+    <string name="action_settings">Settings</string>
+    <string name="family_bill_name">家庭帐务记录</string>
+    <string name="common_title_back">返回</string>
+    <string name="family_main">主页</string>
+    <string name="family_now_time">当前时间：</string>
+    <string name="family_bill_record">帐单记录</string>
+    <string name="family_bill_add">添加帐单</string>
+    <string name="family_all_bill">总帐单</string>
+    <string name="family_bill_detail">帐单详情</string>
+    <string name="family_bill_edit">编辑</string>
+    <string name="family_bill_email">导出</string>
+
+    <string-array name="excel_title">
+        <item>日期</item>
+        <item>食物支出</item>
+        <item>日用品项</item>
+        <item>交通话费</item>
+        <item>旅游出行</item>
+        <item>穿着支出</item>
+        <item>医疗保健</item>
+        <item>人情客往</item>
+        <item>宝宝专项</item>
+        <item>房租水电</item>
+        <item>其它支出</item>
+        <item>备注说明</item>
+        <item>合计</item>
+    </string-array>
+    <string-array name="income_excel">
+        <item>日期</item>
+        <item>工资收入</item>
+        <item>奖金收入</item>
+        <item>经营收入</item>
+        <item>投资收入</item>
+        <item>其它收入</item>
+        <item>备注说明</item>
+        <item>合计</item>
+        ></string-array>
+
+</resources>
